@@ -8,7 +8,6 @@ public class GameManager : MonoBehaviour
     {
         Player player1 = new  Player();
         Player player2 = new  Player();
-        Player player3 = new  Player();
 
         player1.InitializePlayer("Omar", 90);
         player2.InitializePlayer("Ahmed", 70);
