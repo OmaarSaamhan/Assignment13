@@ -6,8 +6,8 @@ public class GameManager : MonoBehaviour
 {
     void Start()
     {
-        Player player1 = new  Player();
-        Player player2 = new  Player();
+        /*Player player1 = new Player();
+        Player player2 = new Player();
 
         player1.InitializePlayer("Omar", 90);
         player2.InitializePlayer("Ahmed", 70);
@@ -18,7 +18,18 @@ public class GameManager : MonoBehaviour
         player1.Heal(true);
         player2.Heal(true);
 
-        Player.ShowPlayerCount();
-        
+        Player.ShowPlayerCount();*/
+
+        PlayerG player11 = new PlayerG();
+        PlayerG player22 = new PlayerG();
+        PlayerG player33 = new PlayerG();
+
+        player11.InitializePlayer("Amin", 120);
+        player22.InitializePlayer("Omar", 40);
+        player33.InitializePlayer("Oday", -15);
+        player11.ReLife();
+        player22.ReLife();
+        player33.ReLife();
+
     }
 }

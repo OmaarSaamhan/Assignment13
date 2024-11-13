@@ -25,7 +25,7 @@ public class Player
     {
         if (fullRestore)
         {
-            healthy = 100; 
+            healthy = 100;
         }
     }
     public static void ShowPlayerCount()
